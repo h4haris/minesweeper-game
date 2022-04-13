@@ -6,6 +6,8 @@ Minesweeper is a puzzle game. The objective of the game is to clear a rectangula
 
 ![demo](images/screen.png)
 
+## LIVE URL
+See [here](https://h4haris.github.io/minesweeper-game) 
 
 ## Game Rules
 
@@ -15,7 +17,7 @@ Minesweeper is a puzzle game. The objective of the game is to clear a rectangula
 
 - Right-clicking on a cell will flag it, causing a flag to appear on it. Flagged cells are still considered unopened, and a player can click on them to open them, although typically they must first be unflagged with an additional right-click.
 
-- Game begins when the player makes the first click on a board with all cells unopened. This click is guaranteed to be safe with some variants further guaranteeing that all adjacent cells are safe as well.
+- Game begins when the player makes the first click on a board with all cells unopened.
 
 - During the game, the player uses information given from the opened cells to deduce further cells that are safe to open, iteratively gaining more information to solve the board. 
 
@@ -24,3 +26,6 @@ Minesweeper is a puzzle game. The objective of the game is to clear a rectangula
 - Frequently when playing the game, the player encounters situations when they cannot deduce any further safe cells from the information given so they would need to make a guess.
 
 - To win the game, players must open all non-mine cells while not opening any mines. Or Flagging all the mined cells.
+
+### Reference
+https://www.youtube.com/watch?v=rxdGAKRndz8
